@@ -13,16 +13,17 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	    - 기존 PC같이 사용하면 안된다.
 		- 순서에 맞추어서 사용(동작중에 다른 명령어 처리 불가능)
 - 명령어 정리
-    - ls : 
-	- pwd :
+    - ls : 현재 디렉터리의 파일 목록을 표시
+	- pwd : Print Working Directory의 약자로 현재 디렉터리의 전체 경로를 화면에 표시
 	- clear : 화면을 깨끗하게 해줌
-	- mkdir (work) : 새로운 디렉토리를 만들기 위함
+	- mkdir (work) : 새로운 디렉터리를 만들기 위함
 	- rm -fr (work) : 삭제할 때 사용
 	- ls -a : 숨겨져 있는 파일까지 보여줌
 	- ls -l : 상세하게 보여줌
-	- cd (work) : change directory -> work라는 디렉토리에 들어옴
+	- cd (work) : change directory -> work라는 디렉터리에 들어옴
 	- cd .. : 상위 디렉토리로 빠져나옴
 	- ls /etc : 환경에 관련된 디렉토리를 보여줌
+	
 ## 2일차
 
 ## 3일차
