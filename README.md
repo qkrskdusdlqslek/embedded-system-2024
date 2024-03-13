@@ -34,7 +34,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- enum.c : 열거형
 	
 - 배열 정리
-    - ![배열 입력으로 받기](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/images/array.png)
+    - ![배열 입력으로 받기](https://github.com/qkrskdusdlqslek/embedded-system-2024/tree/main/images/array.png)
 	
 	- ![배열 입력으로 받기 결과](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/images/array01.png)
 
