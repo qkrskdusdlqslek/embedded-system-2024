@@ -32,20 +32,11 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- ("%s\n", "RaspberryPI OS"); : 문자열 출력
 	
 	- enum.c : 열거형
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+- 배열 정리
+    - ![배열 입력으로 받기](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024in/images/array.png)
+	
+	- ![배열 입력으로 받기 결과](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024in/images/array01.png)
 
 ## 3일차
 
