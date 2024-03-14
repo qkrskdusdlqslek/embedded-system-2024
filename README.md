@@ -33,6 +33,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- enum.c : 열거형
 	
 	![열거형](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/main/images/array.png)
+	![열거형 풀이](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/main/images/array01.png)
 
 ## 3일차
 - 전위삽입  
