@@ -30,15 +30,14 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- ("%d\n", 24);  : 정수출력
 	- ("%c\n", 'A'); : 문자출력
 	- ("%s\n", "RaspberryPI OS"); : 문자열 출력
-	
 	- enum.c : 열거형
 	
-- 배열 정리
-    - ![배열](https://github.com/qkrskdusdlqslek/embedded-system-2024/images/array.png)
-	
-	- ![배열](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/images/array01.png)
+	![열거형](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/main/images/array.png)
 
 ## 3일차
+- 전위삽입  
+- 후위삽입
+- 출력함수
 
 ## 4일차
 
