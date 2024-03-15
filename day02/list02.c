@@ -37,6 +37,18 @@ typedef struct NODE{
     printf("현재=%d\n", pnode->data);
      }
    }
+
+ // 전체 원소를 하나씩 거쳐가며 메모리 해제
+ 53 void allFreeNode(node* pnode)     // 전체메모리 해제함수
+ 54 {
+ 55   node* curr = head->next;
+ 56   while(curr != NULL) {
+ 57     node* next = curr->next;   // 다음 원소 저장 후
+ 58     free(curr);        // 현재 가리키는 원소 할당 해제
+ 59     curr = next;   // curr 포인터를 다음 node를가리킴
+ 60   }
+ 61 }
+
  void main()
  {
    node* head =(node*)malloc(sizeof(node));
