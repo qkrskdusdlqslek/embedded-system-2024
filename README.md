@@ -42,9 +42,11 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
 ## 4일차
 - 전체 메모리 해제
-- 
+- 연결리스트
 
 ## 5일차
+- 후입선출(LastInFirstOut) -> stack : 입구가 같음
+- 선입선출(FirstInFirstOut) -> queue : 입구가 다름
 
 ## 6일차
 
