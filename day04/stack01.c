@@ -6,7 +6,7 @@
    #define FALSE 0
  
    int stack[STACK_SZ];
-   int top = -1;   // -1이라고 선언하면 19행에서는 0번방으로 간다
+   int top = -1;   // -1이라고 선언하면 0번방으로 간다
 
  void push();    // 이런 함수가 있다는 것을 알려줌
  int  pop();
