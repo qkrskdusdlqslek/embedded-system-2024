@@ -12,7 +12,7 @@
    int ary[] = {3, 5, 2, 4, 9, 8, 1};
    int ridx;
    int size = sizeof(ary) / sizeof(int);
-   ridx = lsearch(ary, size, 10);
+   ridx = lsearch(ary, size, 9);
 
    if(ridx == -1) printf("찾는 원소가 없습니다\n");
    else {
