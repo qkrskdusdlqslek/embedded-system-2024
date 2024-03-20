@@ -3,7 +3,7 @@
 
 void main()
  {
-   int ary[] = {3, 5, 2, 4, 9, 8, 1};
+   int ary[] = {1, 2, 3, 4, 5, 6, 7, 8};
    int size = sizeof(ary) / sizeof(ary[0]);
    int first = 0;
    int last = size;
