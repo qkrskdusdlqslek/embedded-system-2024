@@ -61,5 +61,8 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
  printf.o: printf.c
    gcc -c printf.c
+   
+## 7일차
+- 파일 만들고 입출력을 통한 파일 복사
 
 
