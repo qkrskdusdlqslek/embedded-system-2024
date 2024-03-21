@@ -10,7 +10,7 @@
    char str[] = "wonderful day!!";
    char buf[1024];
 
-   fd1 = open("mytest.txt", O_CREAT | O_RDWR | O_TRUNC, 600);
+   fd1 = open("mytest.txt", O_CREAT | O_RDWR | O_TRUNC, 0600);
    if(fd1 < 0) printf("Open Error");
    if(write(fd1, str, strlen(str)) < 0) printf("Write Error");
    close(fd1);
@@ -20,7 +20,7 @@
 
    printf("%s\n", buf);
 
-   fd2 = open("mytest_copy.txt", O_CREAT | O_RDWR | O_TRUNC, 600);
+   fd2 = open("mytest_copy.txt", O_CREAT | O_RDWR | O_TRUNC, 0600);
    if(fd2 < 0) printf("Open Error");
    if(write(fd2, str, strlen(str)) < 0) printf("Write Error");
 
