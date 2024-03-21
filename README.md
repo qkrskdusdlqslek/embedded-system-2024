@@ -1,7 +1,7 @@
 # embedded-system-2024
 IoT 개발자 임베디드시스템 학습 리포지토리
 
-## 1일차
+## 0일차
 - 라즈베리파이 설정 하기
     - setting에 들어가서 글자크기 키우기
 	- sudo apt update -> sudo apt upgrad -y -> clear 순서로 진행 (업데이트는 약 2주 단위로 진행)
@@ -24,7 +24,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- cd .. : 상위 디렉토리로 빠져나옴
 	- ls /etc : 환경에 관련된 디렉토리를 보여줌
 	
-## 2일차
+## 1일차
 - 명령어 정리
     - gcc -o 테스트 파일 테스트파일.c 
 	- ("%d\n", 24);  : 정수출력
@@ -35,20 +35,20 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	![열거형](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/main/images/array.png)
 	![열거형 풀이](https://raw.githubusercontent.com/qkrskdusdlqslek/embedded-system-2024/main/images/array01.png)
 
-## 3일차
+## 2일차
 - 전위삽입  
 - 후위삽입
 - 출력함수
 
-## 4일차
+## 3일차
 - 전체 메모리 해제
 - 연결리스트
 
-## 5일차
+## 4일차
 - 후입선출(LastInFirstOut) -> stack : 입구가 같음
 - 선입선출(FirstInFirstOut) -> queue : 입구가 다름
 
-## 6일차
+## 5일차
 - makefile 만들기: 
  - test: main.o inputf.o printf.o
     - gcc -o test main.o inputf.o printf.o
@@ -62,7 +62,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
  - printf.o: printf.c
     - gcc -c printf.c
    
-## 7일차
+## 6일차
 - 파일 만들고 입출력을 통한 파일 복사
 - 미니 프로젝트
 
