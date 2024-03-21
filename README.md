@@ -50,17 +50,17 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
 ## 6일차
 - makefile 만들기: 
- test: main.o inputf.o printf.o
-   gcc -o test main.o inputf.o printf.o
+ - test: main.o inputf.o printf.o
+    - gcc -o test main.o inputf.o printf.o
 
- main.o: main.c
-   gcc -c main.c
+ - main.o: main.c
+    - gcc -c main.c
 
- inputf.o: inputf.c
-   gcc -c inputf.c
+ - inputf.o: inputf.c
+    - gcc -c inputf.c
 
- printf.o: printf.c
-   gcc -c printf.c
+ - printf.o: printf.c
+    - gcc -c printf.c
    
 ## 7일차
 - 파일 만들고 입출력을 통한 파일 복사
