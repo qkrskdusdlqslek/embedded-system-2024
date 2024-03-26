@@ -1,4 +1,10 @@
- #include <stdio.h>
+/*
+File: linkedList.c - 파일분할
+Created: 2024-03-27
+Author: 박나연
+*/
+
+#include <stdio.h>
  #include "book.h"
 
  void  main()
