@@ -141,7 +141,7 @@
   }
  }
 
- int  main()
+ void  main()
  {
     int choice;
  // do while 문 : 한번은 {}안의 내용을 실행하고 그 후 while 조건을 확인 >
