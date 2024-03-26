@@ -185,13 +185,4 @@ Author: 박나연
          printf("다시 시도하세요\n");
     }
  } while(choice != 6);
-
- // 프로그램 종료 시 동적 할당 메모리 해제
-   Book* current = head;
-   Book* next;
-   while(current != NULL) {
-     next = current->next;
-     free(current);
-     current = next;
-   }
  }
